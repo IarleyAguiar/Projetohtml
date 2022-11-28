@@ -1,0 +1,55 @@
+body{
+    background-color: #3a3a3a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+p {
+    font-size: larger;
+}
+
+.log{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e2e2e;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+}
+.login input[type="text"], input[type="password"]{
+    border-style: none;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+}
+.login input[type="button"]{
+    background-color: white;
+    color: black;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.login input[type="button"]:hover{
+    background-color: cyan;
+    
+}
+.login img{
+    width: 150px;
+    height: 150px;
+}
