@@ -30,12 +30,16 @@ a[value="Star Figure"]:hover {
 
 a[value="Image"]{
     color: black;
-    padding-left: 60px;
-    padding-right: 60px;
-    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
     display: inline-block;
     position: relative;
     font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a[value="Image"]:hover{
+    text-decoration: underline;
 }
 
 h2 {
